@@ -1,0 +1,32 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#863949AB"
+    android:gravity="center"
+    android:padding="20px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#995E35B1"
+        android:layout_margin="20px"
+        android:text="LARGEST"
+        android:id="@+id/lnumber"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#995E35B1"
+        android:layout_margin="20px"
+        android:text="SMALLEST"
+        android:id="@+id/snumber"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#995E35B1"
+        android:layout_margin="20px"
+        android:text="CHECK"
+        android:id="@+id/check"/>
+
+    "
+</LinearLayout>
